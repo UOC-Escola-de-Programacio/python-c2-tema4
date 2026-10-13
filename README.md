@@ -1,5 +1,3 @@
-# python-c2-tema4-sol
-
 # Tema 4. Visualización de datos
 
 ## 🗒️ Requisitos
