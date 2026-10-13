@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Ejercicio 4b6 — Bokeh server + Django</title>
+</head>
+<body>
+    <h1>Ejercicio 4b6 — Bokeh server embebido en una vista de Django</h1>
+    <p>
+        El siguiente gráfico es una sesión en vivo de una app de Bokeh
+        server (<code>bokeh_app/main.py</code>), incrustada en esta página
+        de Django mediante <code>bokeh.embed.server_document</code>.
+    </p>
+    {{ bokeh_script|safe }}
+</body>
+</html>

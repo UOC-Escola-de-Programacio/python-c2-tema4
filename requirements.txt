@@ -1,0 +1,8 @@
+pytest
+pandas
+numpy
+matplotlib
+django
+bokeh
+dash
+plotly
